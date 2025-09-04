@@ -1,82 +1,91 @@
-# 🌍 Global Sales Insights Dashboard - Power BI
+# 📊 Global Sales Insights Dashboard
 
-## 📊 Project Overview
+## 🛍️ Online Retail Shop Power BI Dashboard
 
-The **Global Sales Insights Dashboard** is an interactive Power BI report designed to uncover meaningful insights from global online retail sales data. As a freelance Data Analyst, my goal was to create a dashboard that enables stakeholders to make **data-driven decisions** by exploring sales trends, identifying top performers, and analyzing geographic sales distribution.
-
----
-
-## 📌 Features
-
-### 📅 Page 1: Sales Trends and Top Performers
-
-- **Sales Trend Analysis**  
-  - Interactive line chart displaying sales over time.  
-  - Identifies seasonal trends, growth patterns, and anomalies.
-
-- **Top 10 Customers**  
-  - Highlights key customers based on total sales.  
-  - Includes metrics like sales amount, quantity purchased, and region.
-
-- **Top 10 Countries by Sales**  
-  - Bar chart displaying countries with highest sales (excluding UK as an outlier).  
-  - Color-coded by region for visual clarity.
+### 🔰 Project Title: **Global Sales Insights Dashboard**
 
 ---
 
-### 🌐 Page 2: Geographic Insights with Bubble Map
+## 📌 Introduction
 
-- **Geographic Sales Distribution**  
-  - World map with bubble visualization proportional to each country’s total sales.  
-  - Hovering over bubbles reveals sales volume and quantity sold.
+As a **Data Analyst**, I was tasked with creating an **interactive Power BI dashboard** that provides valuable insights into **global sales trends**. The primary objective was to **empower business stakeholders** with actionable information to enhance decision-making.
 
-- **Dynamic Filters and Interactivity**  
-  - Users can apply filters (e.g., time period, region, customer segment) to update visuals dynamically.  
-  - Bubble size and color adapt to selected filters for deep-dive analysis.
+This dashboard provides an analytical overview of sales trends, customer behavior, and geographic performance. Let me walk you through how I designed and implemented this project.
 
 ---
 
-## 🎯 Goals
+## 📄 Page 1: Sales Trends and Top Performers
 
-- Empower stakeholders with actionable insights.  
-- Visualize global sales trends clearly and interactively.  
-- Identify top-performing regions, customers, and sales anomalies.
+### 📈 Sales Trend Analysis
+- Visualized the **overall sales trend** over time using **line charts**.
+- Identified key **growth patterns**, **seasonality**, and **anomalies** in the data.
 
----
+### 👥 Top 10 Customers
+- Highlighted **high-value customers** contributing significantly to retail shop sales.
+- Displayed:
+  - Total Sales
+  - Quantity Bought
+  - Customer Regions
 
-## 🛠 Tools Used
-
-- **Power BI Desktop**
-- **DAX (Data Analysis Expressions)**
-- **Power Query (M Language)**
-- **Excel / CSV for data input**
-
----
-
-## 📈 Benefits
-
-- **User-friendly interface** with intuitive filters.
-- Clear visibility into sales performance at customer, country, and global levels.
-- Enables **strategic business planning** and targeted marketing.
+### 🌍 Top 10 Countries by Sales
+- Bar chart showing **top-performing countries** by total sales.
+- **United Kingdom** excluded due to its **outlier status**.
+- **Color-coded bars** used for easy **regional comparison**.
 
 ---
 
-## 📷 Sample Screenshots
+## 🌐 Page 2: Geographic Insights with Bubble Map
 
-<img width="640" height="370" alt="image" src="https://github.com/user-attachments/assets/b959e83e-83a9-4779-a6b6-13a6666a8ebc" />
+### 🗺️ Geographic Distribution
+- Designed a **world map** using **bubble visualization** proportional to each country’s sales.
+- Bubbles display:
+  - Total Sales
+  - Quantity Sold
 
-
-> Add screenshots of Page 1 and Page 2 of the dashboard here for better visualization.
-
----
-
-## 🔄 Future Improvements
-
-- Drill-through features for customer-level deep dives.  
-- Integration with live sales databases (SQL, APIs).  
-- Enhanced mobile layout for on-the-go insights.
+### 🎛️ Interactivity and Filters
+- Implemented **dynamic filters** and slicers.
+- Bubble **size and color** adjust automatically based on selected filters, allowing deep-dive analysis.
 
 ---
 
-## 📁 Project Structure
+## 🧾 Power BI Dashboard Highlights
 
+- Clean and intuitive design with dynamic visuals
+- Drill-down capabilities for better insights
+- Interactive filters for time, region, and customer segmentation
+- Performance outlier analysis (e.g., UK exclusion)
+- Real-time data refresh compatible (if connected to live source)
+
+---
+
+## ✅ Conclusion
+
+The **Global Online Retail Sales Insights Dashboard** provides a **holistic view** of the sales landscape. It allows stakeholders to:
+
+- Explore overall trends
+- Identify key customers
+- Pinpoint high-performing countries and regions
+
+As a freelancer, I take pride in delivering **powerful tools** that enable **data-driven decision-making**. 🌐💼
+
+---
+
+## 🛠 Tools & Technologies Used
+
+- Microsoft **Power BI Desktop**
+- **Power Query (M language)**
+- **DAX** (Data Analysis Expressions)
+- Excel / CSV data sources
+
+---
+
+## 📷 Sample Screenshots (Optional)
+
+> Add your screenshot images to a folder named `Assets/` and reference them here:
+
+```markdown
+### Page 1: Sales Trends
+![Sales Trends](Assets/sales_trends.png)
+
+### Page 2: Geographic Bubble Map
+![Geographic Insights](Assets/geographic_insights.png)
